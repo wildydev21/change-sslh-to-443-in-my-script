@@ -82,5 +82,7 @@ systemctl daemon-reload
 systemctl restart sslh
 systemctl restart stunnel4
 systemctl restart ws-epro
+systemctl restart xray-mini@tls
+systemctl restart xray-mini@nontls
 
 clear; echo "Done ! | Successfull Changed SSH To 443"
